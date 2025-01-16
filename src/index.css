@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  gap: 10px;
+}
+
+.input {
+  width: 250px;
+  height: 30;
+  border-radius: 15px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 15px;
+  width: 70px;
+  color: gray;
+}
+
+.button:hover {
+  cursor: pointer;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(80, 80, 220);
+  opacity: 1.2;
+  transition: all 1s;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  border-radius: 9px;
+  border-bottom: 1px solid black;
+}
+
+i {
+  margin-left: 10px;
+}
+
+i:hover {
+  cursor: pointer;
+  color: blue;
+}
